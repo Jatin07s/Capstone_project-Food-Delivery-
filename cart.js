@@ -48,7 +48,7 @@ plus2.addEventListener('click', function () {
 
 // MINUS
 minus2.addEventListener('click', function () {
-    if (q2 > 1) {
+    if (q2 > 0) {
         q2--;
         qty2.textContent = q2;
         total2.textContent = "₹" + (q2 * price2);
